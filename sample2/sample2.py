@@ -142,7 +142,7 @@ def test(dataloader, model, loss_fn):
     correct /= size
     print(f"Test Error: \n Accuracy: {(100*correct):>0.1f}%, Avg loss: {test_loss:>8f} \n")
     
-def main(epoch = 5, lr = 1e-5):
+def main(epoch = 5):
     epochs = epoch
     for t in range(epochs):
         print(f"Epoch {t+1}\n-------------------------------")
@@ -152,5 +152,4 @@ def main(epoch = 5, lr = 1e-5):
     
 if __name__ == "__main__" :
 
-    breakpoint()
     main(epoch = ep, lr = lr)
