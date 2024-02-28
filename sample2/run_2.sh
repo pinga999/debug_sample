@@ -1,0 +1,1 @@
+python sample2.py -ep 3 -lr 1e-5 -bs 32
