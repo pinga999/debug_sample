@@ -16,7 +16,6 @@ ep = args.epoch
 lr = args.learning_rate
 bs = args.batch_size
 
-breakpoint()
 # 공개 데이터셋에서 학습 데이터를 내려받습니다.
 training_data = datasets.FashionMNIST(
     root="data",
