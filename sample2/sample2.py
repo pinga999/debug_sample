@@ -151,4 +151,4 @@ def main(epoch = 5):
     
 if __name__ == "__main__" :
 
-    main(epoch = ep, lr = lr)
+    main(epoch = ep)
